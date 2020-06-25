@@ -11,8 +11,19 @@ print(message)
 message = f'¡Hola {guests_list[2].title()}!, ¿quieres ir a comer?'
 print(message)
 
-print(f'\t Parece que {guests_list[1].title()} no podrá venir')
+print(f'\n Parece que {guests_list[1].title()} no podrá venir')
 
-guests_list[1] = 'tammy'
+guests_list[1] = 'tammy' #reemplazo la invitada que no vendrá por la que sí
 
-print
+#re imprimo lista de invitados
+
+print('\n Segunda lista\n')
+
+message = f'¡Hola {guests_list[0].title()}!, ¿quieres ir a comer?'
+print(message)
+
+message = f'¡Hola {guests_list[1].title()}!, ¿quieres ir a comer?'
+print(message)
+
+message = f'¡Hola {guests_list[2].title()}!, ¿quieres ir a comer?'
+print(message)
